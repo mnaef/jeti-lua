@@ -86,7 +86,7 @@ local function switchTSMode(state)
 	if(TSControlIdx) then
 		system.setControl(TSControlIdx,state,0)
 		TSMode = state;
-		print("switchTSMode("..state..")");
+		--print("switchTSMode("..state..")");
 		return(true)
 	end
 	return(false)
